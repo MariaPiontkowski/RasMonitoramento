@@ -1,0 +1,13 @@
+.center{
+    margin: auto;
+    float:none;
+}
+
+.w3-address-grid {
+    border-left: solid 10px #131313;
+    border-right: solid 10px #131313;
+}
+
+.navbar-header h1 a{
+    padding: 0 20px;
+}
