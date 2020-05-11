@@ -7,11 +7,13 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-<title>RAS</title>
+<title>RAS Monitoramento</title>
 <!-- Meta tag Keywords -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Transporters web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web Designs" />
+<meta name="keywords" content="rastreador,rastramento,monitoramento,veículo"/>
+<meta name="description" content="Monitore seu veiculo em tempo real, com posições atualizadas a cada minuto. Envie comandos de seu smartphone e website. Mais rentabilidade para você."/>
+<meta name="og:image" content="/images/logo.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--// Meta tag Keywords -->
@@ -45,10 +47,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                         <h1><a href="index.php"><img src="images/icon-invert.png" width="50">RAS MONITORAMENTO</a></h1>
 					</div>
 					<div class="top-nav-text">
-						<!--<a href="https://api.whatsapp.com/send?phone=5547999047794" target="_blank">-->
+						<!--<a href="https://api.whatsapp.com/send?phone=" target="_blank">-->
 							<div class="nav-contact-w3ls">
 								<i class="fa fa-phone" aria-hidden="true"></i>
-								<p>(47) 3133 2476</p>
+								<p>(47) 9 9904 7794</p>
 							</div>
 						<!--</a>-->
 					</div>
@@ -109,7 +111,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="banner-form-agileinfo">
 									<h5 class="text-center">Área do <span>Cliente</span></h5>
 									<p>Realize o login abaixo para acessar nossa plataforma de rastramento</p>
-									<form action="http://ap3.stc.srv.br/webcliente/rasrastreadores/" method="post">
+									<form action="http://ap3.stc.srv.br/webcliente/rasrastreadores/" id="platf" method="get">
 										<input type="text" name="usr" placeholder="Usuário" required="">
 										<input type="password" name="pwd" placeholder="Senha" required="">
 										<input type="submit" class="hvr-shutter-in-vertical" value="Entrar">
@@ -705,7 +707,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<div class="w3-address-right">
 								<h6>Telefone</h6>
-								<p>(47) 3133 2476</p>
+								<p>(47) 9 9904 7794</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -715,7 +717,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<div class="w3-address-right">
 								<h6>Email</h6>
-								<p><a href="mailto:contato@monitoramento.com"> contato@monitoramento.com</a></p>
+								<p><a href="mailto:contato@rasmonitoramento.com">contato@rasmonitoramento.com</a></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -738,6 +740,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="copyright">
 			<div class="container">
 				<p>© <?php echo date('Y') ?> Ras Soluções Inteligentes</p>
+				<p style="font-size: 0.8em">Desenvolvido por <a href="http://piontkowski.heliohost.org/" target="_blank">Maria Cecília Piontkowski Alves</a></p>
 			</div>
 		</div>
 	</footer>
